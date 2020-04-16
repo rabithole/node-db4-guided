@@ -15,7 +15,7 @@ server.get('/api/species', (req, res) => {
     res.status(200).json(species);
   })
   .catch(error => {
-    res.status(500).json(error);
+    res.status(520).json(error);
   });
 });
 
